@@ -1,0 +1,17 @@
+aiohttp
+pymongo[srv]
+motor==2.5.1
+Pyrogram==2.0.100
+TgCrypto==1.2.3
+bs4
+pyshortners
+aiofiles
+python-dotenv
+requests
+PyBypass==2.0.1
+mdisky
+shortzy
+aiofiles
+validators
+python-dotenv
+uvloop
