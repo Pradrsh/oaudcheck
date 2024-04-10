@@ -71,7 +71,7 @@ Helpful commands:
 
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
-If You Have Any Problem Then Contact - @Darkbotnet_owner
+If You Have Any Problem Then Contact - @vipulyaadav
 
 Available commands:
 
