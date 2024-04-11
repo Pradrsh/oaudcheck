@@ -11,7 +11,7 @@ load_dotenv()
 # Mandatory variables for the bot to start
 API_ID = int(os.environ.get("API_ID", '2423316')) #API ID from https://my.telegram.org/auth
 API_HASH = os.environ.get("API_HASH", 'be6d1df50bfa7621325bad56f98b2063') #API Hash from https://my.telegram.org/auth
-BOT_TOKEN = os.environ.get("BOT_TOKEN", '6821739116:AAFoaDEuqB_0ro8yynw0cS7heKAl03-Mtxo') # Bot token from @BotFather
+BOT_TOKEN = os.environ.get("BOT_TOKEN", '6775945398:AAEaiO0MiTX1uO00x14zmQCYPRZE54O52Ic') # Bot token from @BotFather
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split(",")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", 'DKBOTZ')
@@ -29,6 +29,6 @@ LINK_BYPASS = "True"
 
 # SHORTNER
 SHORT_METHOD = 1 # 2 method added 1 and 2
-SHORTNER_LINK = os.environ.get("SHORTNER_LINK", 'vipurl.in')
+SHORTNER_LINK = os.environ.get("SHORTNER_LINK", 'Teraboxhub.net')
 CHANNEL_LINK = os.environ.get("CHANNEL_LINK", 'https://t.me/Bot_update_i')
 SIMPLE_MODE = os.environ.get("SIMPLE_MODE", True)
