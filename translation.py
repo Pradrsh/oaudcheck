@@ -49,11 +49,7 @@ I Am {site} , Bulk Link Converter. I Can Convert Links Directly From Your {site}
 (See Example.👇)
 Example:** `/set_api cbd63775f798fe0e58c67a56e6ce8b70c495cda4 `
 
-**💁‍♀️ Hit 👉 /help To Get Help.
-
-➕ Hit 👉 /footer To Get Help About Adding your Custom Footer to bot.
-
-➕ Hit 👉 /header To Get Help About Adding your Custom Footer to bot.**
+**💁‍♀️ Hit 👉 /help To Get Help.**
 '''
 
 HELP_MESSAGE = '''
@@ -76,13 +72,6 @@ If You Have Any Problem Then Contact - @vipulyaadav
 Available commands:
 
 - /set_api - Use This Cmd To Add API
-- /header - Set Header Text
-- /footer - Set Footer Text
-- /username - Set Username
-- /banner_image - Set A Banner For Post
-- /me - Your Settings Details
-- /balance - Get Your Balance Info
-- /features - Get Features Info
 
 Use the commands to know more about the same
 Below are some features I provide'''
@@ -94,12 +83,6 @@ FEATURES_MESSAGE = '''
 Available commands:
 
 - /set_api - Use This Cmd To Add API
-- /header - Set Header Text
-- /footer - Set Footer Text
-- /username - Set Username
-- /banner_image - Set A Banner For Post
-- /me - Your Settings Details
-- /balance - Get Your Balance Info
 - /features - Get Features Info**'''
 
 ABOUT_TEXT = """
