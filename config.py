@@ -14,7 +14,7 @@ API_HASH = os.environ.get("API_HASH", 'be6d1df50bfa7621325bad56f98b2063') #API H
 BOT_TOKEN = os.environ.get("BOT_TOKEN", '6775945398:AAEaiO0MiTX1uO00x14zmQCYPRZE54O52Ic') # Bot token from @BotFather
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split(",")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", 'DKBOTZ')
+DATABASE_NAME = os.environ.get("DATABASE_NAME", '@Teraboxhubbot')
 DATABASE_URL = os.environ.get("DATABASE_URL", 'mongodb+srv://hearttouch81:gf8faDrJ0r19OWkV@cluster0.0ds0w6j.mongodb.net/?retryWrites=true&w=majority') # mongodb uri from https://www.mongodb.com/
 OWNER_ID =  int(os.environ.get("OWNER_ID", '6010304291')) # id of the owner
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
@@ -29,6 +29,6 @@ LINK_BYPASS = "True"
 
 # SHORTNER
 SHORT_METHOD = 1 # 2 method added 1 and 2
-SHORTNER_LINK = os.environ.get("SHORTNER_LINK", 'Teraboxhub.net')
+SHORTNER_LINK = os.environ.get("SHORTNER_LINK", 'teraboxhub.net')
 CHANNEL_LINK = os.environ.get("CHANNEL_LINK", 'https://t.me/Bot_update_i')
 SIMPLE_MODE = os.environ.get("SIMPLE_MODE", True)
